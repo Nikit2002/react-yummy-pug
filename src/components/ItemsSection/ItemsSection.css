@@ -1,0 +1,64 @@
+:root{
+    --font-family: 'Montserrat', sans-serif;
+}
+.greetings{
+    width: 50%;
+    text-align: left;
+}
+.greetings a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    background-color: #774E2E;
+    display: inline-flex;
+}
+section:first-child{
+    background: #fff9ea;
+    width: 100%;
+}
+.items-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding-bottom: 150px;
+}
+.item{
+    width: 30%;
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.item img{
+    width: 100%;
+}
+h3{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+}
+h4{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    margin: 15px 0;
+}
+.item p{
+    font-family: var(--font-family);
+    padding: 0 15px;
+}

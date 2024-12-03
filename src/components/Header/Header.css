@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --font-family: 'Montserrat', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #774E2E;
+    margin: 0;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+a{
+    font-family: var(--font-family);
+    text-decoration: none;
+    color: #774E2E;
+}
+h1{
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 110px;
+    letter-spacing: 5.5px;
+    margin-bottom: 40px;
+}
+h1 span,
+h3 span {
+    font-family: var(--font-family);
+    color: #F37F34;
+}
+p{
+    font-family: var(--font-family);
+    margin-bottom: 50px;
+    line-height: 24px;
+}
+header{
+    margin-bottom: 150px;
+    padding-top: 32px;
+}
+/* Main styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 50px;
+}
+
+/* Nav styles */
+
+.header-container{
+    background-image: url('./../../assets/img/dog.png');
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-top: 50px;
+}
